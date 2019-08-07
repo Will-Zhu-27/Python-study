@@ -1,9 +1,5 @@
-'''
-name = input("Please enter your name: ")
-print("Hello, " + name + "!")
-'''
+def greet_user(username):
+    """显示问候语"""
+    print("Hello, " + username.title() + "!")
 
-prompt = "If you tell us who you are, we can personalize the messages you see. \nWhat is your first name? "
-
-name = input(prompt)
-print("\nHello, " + name + "!")
+greet_user('Yuqiang')
