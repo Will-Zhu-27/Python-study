@@ -12,7 +12,7 @@ class MessageBox(QWidget):
         self.show()
 
     def closeEvent(self, event):
-        reply = QMessageBox.question(self, 'Message', "Are you sure to quit?", QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+        reply = QMessageBox.question(self, 'Message', "Are you sure to quit?", QMessageBox.Yes, QMessageBox.Yes)
 
         if reply == QMessageBox.Yes:
             event.accept()

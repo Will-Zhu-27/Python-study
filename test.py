@@ -1,3 +1,5 @@
-s2 = 'The quick brown fox \
-jumps over the lazy dog'
-print(s2)
+import os
+
+cli_path = os.getcwd() + os.sep + 'cli.py'
+
+print(cli_path)
